@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <center>TODO.COM
+{% for p in tache %}
+    {{ p.id}}<br>
+    {{ p.nom}}<br>
+    {{ p.description}}<br>
+
+{% endfor %}
+    </center>
+{% endblock %}

@@ -1,0 +1,5 @@
+dwmlist:
+    resource: "@DwmlistBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
